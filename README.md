@@ -1,14 +1,19 @@
-# fitness-subscription-analytics
-A data analytics project that analyze  gym memberships, subscription models, and user engagement trends.
+# Subscription Analytics  
+A data analytics project that analyze gym memberships, subscription models, and user engagement trends.
 
-## ✨ Key Features
- **Revenue & Subscription Analysis**: Breakdowns of recurring revenue by membership tier, billing cycle, and renewal rates.
-**Member Engagement & Attendance**: Tracking of weekly visit frequencies, peak facility hours, and group class participation.
-**Demographic Insights**: Segmentation of the member base by age, gender, and location to identify core user profiles.
-**Retention Tracking**: Cohort analysis to pinpoint when members are most likely to cancel their subscriptions.
-**Interactive Dashboards**: Data visualizations built to present KPIs like Monthly Recurring Revenue (MRR), Customer Acquisition Cost (CAC), and Churn Rate.
+## Project Overview 
+This project delivers a comprehensive subscription analytics suite built in Tableau, featuring customer cohort analysis, a 12-month revenue forecast, and a comparative evaluation of Customer Acquisition Cost (CAC) against Lifetime Value (LTV).
 
-### 📈 2. Predictive Revenue Modeling (2026 Projection)
- **Rapid Compounding Growth**: Over the next 12 months (all of 2026), monthly subscription revenue is expected to grow very quickly. It will rise from about **\$300,000 in January 2026** to around **\$1,400,000 by January 2027**.
-**Non-Seasonal Trajectory**: The time-series chart shows no signs of seasonal changes. Both the past sales (dark blue line) and future estimates (light blue line) form a perfectly smooth curve that bends straight upward. 
-**Steady and Continuous**: There are no regular holiday dips or summer spikes in the data; the growth is steady and continuous, pointing to strong structural compounding rather than industry seasonality.
+## Customer Cohort Analysis
+Customers typically cancel their subscriptions after 2 to 3 months of active retention. This clear inflection point highlights a critical drop-off window following the initial onboarding phase, indicating a need for targeted re-engagement campaigns during the second month.
+
+## Revenue Forecast
+The predictive model shows that revenue grows steadily over the 12-month horizon while exhibiting a distinct seasonal pattern. This cyclical trend highlights predictable high-performance quarters balanced by baseline operational periods throughout the fiscal year.
+
+### CAC vs LTV Comparison
+Analysis of our unit economics reveals that the 2025 cohort reached its break-even point in May, outperforming the 2024 cohort, which did not break even until August. This shift indicates a faster trajectory toward profitability for the 2025 subscriber group.
+
+###Screenshots
+Cohort_Retention_Matrix.png — Visualizes customer churn dynamics and the 2-to-3 month drop-off window.
+Revenue_Forecast_Trend.png — Displays the 12-month growth trajectory and seasonal performance cycles.
+CAC_vs_LTV_Dashboard.png — Compares the fiscal break-even timelines between the 2024 and 2025 cohorts.
